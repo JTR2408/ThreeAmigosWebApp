@@ -1,0 +1,59 @@
+﻿@page
+@model IndexModel
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Product Data</title>
+</head>
+<body>
+    <h1>Products</h1>
+        <form method="get">
+            <input type="text" id="searchInput" name="searchTerm" placeholder="Search">
+            <input type="submit" value="Go">
+        </form>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Brand</th>
+                <th>Brand Id</th>
+                <th>Category</th>
+                <th>Category Id</th>
+                @if(User.Identity.IsAuthenticated){
+                <th>In Stock</th>
+                }
+               
+            </tr>
+        </thead>
+        <tbody>
+    @if (Model.Products != null){
+        @foreach (var product in Model.Products){
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@product.Price</td>
+                <td>@product.BrandName</td>
+                <td>@product.BrandId</td>
+                <td>@product.CategoryName</td>
+                <td>@product.CategoryId</td>
+                @if(User.Identity.IsAuthenticated){
+                <td>@(product.InStock ? "Yes" : "No")</td>
+                }
+                
+            </tr>
+        }
+    }
+    else{
+        <tr>
+            <td colspan="6">No products available</td>
+        </tr>
+    }
+</tbody>
+    </table>
+</body>
+</html>
