@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SNbj/5ULkS0Wqksad7XOrwYw7GlQ6hVLXqBwcnv5X/DIMkxuuYnap4W2cTH6vzPbIcvM7BdASws8/BXFCKZQbQ==",
+  "dgSpecHash": "DTzvr1gxCCjEJE39usZcyB0+8xHU5wPLhptVnav3M96RprWPzm7ycVn80umG9BPM/ph1VQVE6/JGWzQgm9jL2A==",
   "success": true,
-  "projectFilePath": "c:\\Users\\joshu\\Documents\\ThreeAmigosWebApp\\ThreeAmigosWebApp\\ThreeAmigosWebApp.csproj",
+  "projectFilePath": "C:\\Users\\joshu\\Documents\\ThreeAmigosWebApp\\ThreeAmigosWebApp\\ThreeAmigosWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joshu\\.nuget\\packages\\auth0.aspnetcore.authentication\\1.0.4\\auth0.aspnetcore.authentication.1.0.4.nupkg.sha512",
     "C:\\Users\\joshu\\.nuget\\packages\\auth0.authenticationapi\\7.26.0\\auth0.authenticationapi.7.26.0.nupkg.sha512",

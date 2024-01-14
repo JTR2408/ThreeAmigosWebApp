@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\joshu\\Documents\\ThreeAmigosWebApp\\ThreeAmigosWebApp\\ThreeAmigosWebApp.csproj": {}
+    "C:\\Users\\joshu\\Documents\\ThreeAmigosWebApp\\ThreeAmigosWebApp\\ThreeAmigosWebApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\joshu\\Documents\\ThreeAmigosWebApp\\ThreeAmigosWebApp\\ThreeAmigosWebApp.csproj": {
+    "C:\\Users\\joshu\\Documents\\ThreeAmigosWebApp\\ThreeAmigosWebApp\\ThreeAmigosWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\joshu\\Documents\\ThreeAmigosWebApp\\ThreeAmigosWebApp\\ThreeAmigosWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\joshu\\Documents\\ThreeAmigosWebApp\\ThreeAmigosWebApp\\ThreeAmigosWebApp.csproj",
         "projectName": "ThreeAmigosWebApp",
-        "projectPath": "c:\\Users\\joshu\\Documents\\ThreeAmigosWebApp\\ThreeAmigosWebApp\\ThreeAmigosWebApp.csproj",
+        "projectPath": "C:\\Users\\joshu\\Documents\\ThreeAmigosWebApp\\ThreeAmigosWebApp\\ThreeAmigosWebApp.csproj",
         "packagesPath": "C:\\Users\\joshu\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\joshu\\Documents\\ThreeAmigosWebApp\\ThreeAmigosWebApp\\obj\\",
+        "outputPath": "C:\\Users\\joshu\\Documents\\ThreeAmigosWebApp\\ThreeAmigosWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joshu\\AppData\\Roaming\\NuGet\\NuGet.Config"
